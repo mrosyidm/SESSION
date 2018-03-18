@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<hmtl> 
+    <head> 
+      <style type="text/css">
+        .container{
+        position: fixed;
+        padding:10px;
+        top: 45%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -190px;
+      }
+      </style>
+        <title>TUGAS PEMWEB</title>  
+    </head> 
+    <body background="gedung.jpg" style="background-size: 1400px"> 
+        <div class="container"> 
+        	<h1 style="margin-left: -40px">Silahkan login terlebih dahulu</h1>  
+            <div style="border : 2px solid black; width : 200px; padding: 30px 60px 30px; background:lightgrey;">
+                    <table>
+                    <form action="session.php" method="post">
+                      <tr style="height: 30px;">
+                        <td style="width: 70px; ">Username</td>
+                      <tr>
+                        <td>
+                         <input type="text" name="usr" required=""><br><br>
+                        </td>
+                      </tr> 
+                      <tr style="height: 30px;">
+                        <td style="width: 70px;">Password</td>
+                     <tr>
+                        <td>
+                         <input type="password" name="pwd" required=""><br><br>
+                        </td>
+                      </tr>
+                      <tr style="height: 50px">
+                        <td style="margin-bottom: 100px">
+                          <input type="submit" value="Kirim"><br>
+                        </td>
+                      </tr> 
+                    </form>
+                    </table>
+            </div> 
+        </div> 
+    </body> 
+</hmtl>
